@@ -39,7 +39,7 @@ export class TestimonialComponent implements OnInit  {
         items: 2
       }
     },
-    nav: true
+    nav: false
   }
   encapsulation!: ViewEncapsulation.None
 

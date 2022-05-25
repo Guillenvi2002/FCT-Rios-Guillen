@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
         items: 2
       }
     },
-    nav: true
+    nav: false
   }
 
   ngOnInit(): void {

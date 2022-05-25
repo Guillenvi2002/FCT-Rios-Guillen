@@ -10,9 +10,7 @@
                             <ng-template carouselSlide *ngFor="let slide of ApiT.equipo" carouselSlide[id]="slide.id" class="testimonial-item text-center">
                             <div class="testimonial-item text-center">
                                 <div class="position-relative mb-5">
-                                    <div class="testwrapper">
-                                        <img class="img-fluid rounded-circle mx-auto testeo" style="max-height:300px; margin:0 auto;" [src]="slide.src" alt="">
-                                    </div>
+                                        <img class="img-fluid rounded-circle mx-auto" id="imagen" style="max-height:300px; margin:0 auto;" [src]="slide.src" alt="">
                                     <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
                                         <i class="fa fa-quote-left fa-2x text-primary"></i>
                                     </div>
