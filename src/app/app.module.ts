@@ -17,7 +17,6 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { TestigosService } from './services/testigos.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +40,7 @@ import { TestigosService } from './services/testigos.service';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [TestigosService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
