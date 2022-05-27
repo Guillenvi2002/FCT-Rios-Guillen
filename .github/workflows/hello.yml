@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Echo the message
         run: echo Hello World
+      - name: Dame la fecha
+        run: date
+      - run: ls -l
