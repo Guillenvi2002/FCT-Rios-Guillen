@@ -9,11 +9,8 @@ export class FilterPipe implements PipeTransform {
     if (arg === '') return value;
     const resultPosts = [];
     for (const post of value) {
-      if (post.nomeEstacion.toLowerCase().indexOf(arg.toLowerCase()) > -1) {
+      if (post.provincia.toLowerCase().indexOf(arg.toLowerCase()) > -1 || post.nomeEstacion.toLowerCase().indexOf(arg.toLowerCase()) > -1) {
         resultPosts.push(post);
-        if (post.provincia.toLowerCase().indexOf(arg.toLowerCase()) > -1) {
-            resultPosts.push(post);
-          };
       };
     };
     return resultPosts;
