@@ -9,6 +9,7 @@ import { TeamComponent } from './pages/team/team.component';
 import { TestimonialComponent } from './pages/testimonial/testimonial.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { RiosComponent } from './pages/rios/rios.component';
 
 const routes: Routes = [
   {path: "about", component: AboutComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: "feature", component: FeaturesComponent},
   {path: "team", component: TeamComponent},
   {path: "testi", component: TestimonialComponent},
+  {path: "rios", component: RiosComponent},
   {path: "", component: HomeComponent},
   {path: "**", component: ErrorComponent}
   ];
