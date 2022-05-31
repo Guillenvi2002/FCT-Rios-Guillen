@@ -7,12 +7,25 @@
   <div class="row" id="myDIV">
     <div class="col-sm-12 mb-3">
       <div class="card" id="carta" *ngFor="let rio of ApiRios.equipo | filter:filterPost">
+        <img class="card-img-top" src="../../../assets/img/{{rio.nomeEstacion}}.jpeg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title"><a href="#">{{rio.nomeEstacion}}</a></h5>
+          <h5 class="card-title"><a>{{rio.nomeEstacion}}</a></h5>
           <h6 class="card-subtitle mb-2 text-muted">Provincia: {{rio.provincia}}</h6>
-          <p class="card-text">Some text.</p>
+          <h6 class="card-subtitle mb-2 text-muted">Concello: {{rio.concello}}</h6>
+          <p> Ultima vez actualizado: {{rio.dataLocal}}</p>
+          <div>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#texto{{rio.ide}}" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Mas detalles
+            </a><br><br>
+            <div class="collapse" id="texto{{rio.ide}}">
+              <div class="card card-body" *ngFor="let detalles of rio.listaMedidas">
+                <p>{{detalles.parametro}}</p>
+                <p>{{detalles.valor}} {{detalles.unidade}}</p>
+              </div>
+            </div>          
+          </div>
+          <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">Ir al mapa</a><br>
         </div>
-      </div>
     </div>    
-  </div>
+  </div><br><br>
 </div>
