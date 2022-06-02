@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { TestigosService } from 'src/app/services/testigos.service';
 import { EmpleadosService } from '../../services/empleados.service';
@@ -10,7 +11,10 @@ import { EmpleadosService } from '../../services/empleados.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public ApiT: TestigosService, public grupo: EmpleadosService) { }
+  about:any = "/about";
+  evento:any = "/courses";
+
+  constructor(public ApiT: TestigosService, public grupo: EmpleadosService, private router: Router) { }
 
   customOptions: OwlOptions = {
     loop: true,
@@ -35,6 +39,10 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  irPagina(val:any){
+    this.router.navigateByUrl(val);
   }
 
 }

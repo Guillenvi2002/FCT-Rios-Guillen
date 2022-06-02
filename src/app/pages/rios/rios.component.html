@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container wow fadeIn" data-wow-delay="0.3s">
   <div class="row">
     <div class="col-sm-12 mb-3">
       <input type="text" class="form-control" name="filterPost" placeholder="Busca un rio..." [(ngModel)]="filterPost">
@@ -14,7 +14,8 @@
           <h6 class="card-subtitle mb-2 text-muted">Concello: {{rio.concello}}</h6>
           <p> Ultima vez actualizado: {{rio.dataLocal}}</p>
           <div>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#texto{{rio.ide}}" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#texto{{rio.ide}}" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
               Mas detalles
             </a><br><br>
             <div class="collapse" id="texto{{rio.ide}}">
@@ -24,10 +25,11 @@
               </div>
               <p>Latitud: {{rio.latitude}}</p>
               <p>Longitud: {{rio.lonxitude}}</p>
-            </div>          
+            </div>
           </div>
-          <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">Ir al mapa</a><br>
+          <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">Ir al
+            mapa</a><br>
         </div>
-    </div>    
-  </div><br><br>
-</div>
+      </div>
+    </div><br><br>
+  </div>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { NgwWowService } from 'ngx-wow';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class AppComponent {
   title = 'FCT_Guillen';
   
-  constructor(){}
+  constructor(private wowService: NgwWowService){
+    this.wowService.init();
+  }
 
   customOptions: OwlOptions = {
     loop: true,

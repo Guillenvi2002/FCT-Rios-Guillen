@@ -8,9 +8,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { FeaturesComponent } from './pages/features/features.component';
-import { AppointmentComponent } from './pages/appointment/appointment.component';
-import { TeamComponent } from './pages/team/team.component';
-import { TestimonialComponent } from './pages/testimonial/testimonial.component';
 import { ErrorComponent } from './pages/error/error.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -19,8 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { RiosComponent } from './pages/rios/rios.component';
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './pipes/filter.pipe';
-import { ClientesComponent } from './pages/clientes/clientes.component';
 import { EquipoComponent } from './pages/equipo/equipo.component';
+import { ClientesComponent } from './pages/clientes/clientes.component';
 
 @NgModule({
   declarations: [
@@ -31,9 +28,6 @@ import { EquipoComponent } from './pages/equipo/equipo.component';
     HomeComponent,
     CoursesComponent,
     FeaturesComponent,
-    AppointmentComponent,
-    TeamComponent,
-    TestimonialComponent,
     ErrorComponent,
     ContactComponent,
     RiosComponent,
