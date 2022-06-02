@@ -48,7 +48,6 @@
         dots: true,
         loop: true,
     });
-
     
 })(jQuery);
 
