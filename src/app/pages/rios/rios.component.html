@@ -1,12 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12 mb-3">
-      <input type="text" class="form-control" name="filterPost" placeholder="Search..." [(ngModel)]="filterPost">
+      <input type="text" class="form-control" name="filterPost" placeholder="Busca un rio..." [(ngModel)]="filterPost">
     </div>
   </div>
   <div class="row" id="myDIV">
     <div class="col-sm-12 mb-3">
-      <div class="card" id="carta" *ngFor="let rio of ApiRios.equipo | filter:filterPost">
+      <div class="card" id="carta" *ngFor="let rio of ApiRios.natur | filter:filterPost">
         <img class="card-img-top" src="../../../assets/img/{{rio.nomeEstacion}}.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><a>{{rio.nomeEstacion}}</a></h5>
@@ -22,6 +22,8 @@
                 <p>{{detalles.parametro}}</p>
                 <p>{{detalles.valor}} {{detalles.unidade}}</p>
               </div>
+              <p>Latitud: {{rio.latitude}}</p>
+              <p>Longitud: {{rio.lonxitude}}</p>
             </div>          
           </div>
           <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">Ir al mapa</a><br>

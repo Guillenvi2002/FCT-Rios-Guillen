@@ -7,20 +7,19 @@ import { IEquipo } from '../interfaces/IEquipo';
 })
 export class TestigosService {
 
-  equipo: IEquipo[] = [];
+  cliente: IEquipo[] = [];
 
   constructor(private http: HttpClient) { 
 
-    this.pruebaTest();
+    this.recogerClientes();
 
   }
-
-
-  private pruebaTest() {
+  
+  private recogerClientes() {
     this.http
           .get('https://angular-html-476bd-default-rtdb.europe-west1.firebasedatabase.app/testimonios.json')
           .subscribe((resp: any)=>{
-            this.equipo=resp;
+            this.cliente=resp;
           });
   }
 }

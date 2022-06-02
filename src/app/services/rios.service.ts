@@ -7,21 +7,20 @@ import { IRios} from '../interfaces/IRios';
 })
 export class RiosService {
 
-  equipo: IRios[] = [];
+  natur: IRios[] = [];
 
   constructor(private http: HttpClient) { 
 
-    this.pruebaTest();
+    this.cargarRios();
 
   }
 
 
-  private pruebaTest() {
+  private cargarRios() {
     this.http
           .get('https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
           .subscribe((resp: any)=>{
-            console.log(resp)
-            this.equipo= resp['listaAforos'];
+            this.natur= resp['listaAforos'];
           });
   }
 }

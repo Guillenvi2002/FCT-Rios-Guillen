@@ -1,16 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { TestigosService } from 'src/app/services/testigos.service';
-import { EmpleadosService } from '../../services/empleados.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-clientes',
+  templateUrl: './clientes.component.html',
+  styleUrls: ['./clientes.component.css']
 })
-export class HomeComponent implements OnInit {
+export class ClientesComponent implements OnInit  {
 
-  constructor(public ApiT: TestigosService, public grupo: EmpleadosService) { }
+  constructor(public ApiT: TestigosService) {}
 
   customOptions: OwlOptions = {
     loop: true,
@@ -33,8 +32,8 @@ export class HomeComponent implements OnInit {
     },
     nav: false
   }
+  encapsulation!: ViewEncapsulation.None
 
   ngOnInit(): void {
   }
-
 }

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -20,6 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { RiosComponent } from './pages/rios/rios.component';
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './pipes/filter.pipe';
+import { ClientesComponent } from './pages/clientes/clientes.component';
+import { EquipoComponent } from './pages/equipo/equipo.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,9 @@ import { FilterPipe } from './pipes/filter.pipe';
     ContactComponent,
     RiosComponent,
     FilterPipe,
+    EquipoComponent,
+    ClientesComponent,
+    RiosComponent,
   ],
   imports: [
     BrowserModule,
