@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './pipes/filter.pipe';
 import { EquipoComponent } from './pages/equipo/equipo.component';
 import { ClientesComponent } from './pages/clientes/clientes.component';
+import { AppointmentComponent } from './pages/appointment/appointment.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ClientesComponent } from './pages/clientes/clientes.component';
     EquipoComponent,
     ClientesComponent,
     RiosComponent,
+    AppointmentComponent,
   ],
   imports: [
     BrowserModule,
