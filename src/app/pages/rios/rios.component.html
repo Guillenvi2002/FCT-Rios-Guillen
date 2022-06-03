@@ -7,7 +7,7 @@
   <div class="row" id="myDIV">
     <div class="col-sm-12 mb-3">
       <div class="card" id="carta" *ngFor="let rio of ApiRios.natur | filter:filterPost">
-        <img class="card-img-top" src="/assets/img/{{rio.nomeEstacion}}.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="assets/img/{{rio.nomeEstacion}}.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><a>{{rio.nomeEstacion}}</a></h5>
           <h6 class="card-subtitle mb-2 text-muted">Provincia: {{rio.provincia}}</h6>
