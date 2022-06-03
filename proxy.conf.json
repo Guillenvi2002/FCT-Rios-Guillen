@@ -1,8 +1,11 @@
 {
-    "/mgrss/*":{
+    "/mgrss/observacion/*":{
         "target": "https://servizos.meteogalicia.gal",        
         "secure": false,
         "changeOrigin": true,
-        "logLevel": "debug"
+        "pathRewrite": {
+            "^/mgrss/observacion": ""
+        },
+        "logLevel": "info"
     }
 }
