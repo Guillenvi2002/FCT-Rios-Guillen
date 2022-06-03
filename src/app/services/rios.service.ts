@@ -18,11 +18,11 @@ export class RiosService {
 
   private cargarRios() {
     this.http
-          .get('https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
+          .get('mgrss/observacion/jsonAforos.action')
           .subscribe((resp: any)=>{
             this.natur= resp['listaAforos'];
           });
   }
 }
 
-//          .get('https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
+//          .get('https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action') https://run.mocky.io/v3/7cd1df6f-63b8-4548-a7cc-0c3bab2b238f
