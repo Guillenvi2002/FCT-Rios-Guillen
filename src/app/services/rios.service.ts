@@ -18,7 +18,7 @@ export class RiosService {
 
   private cargarRios() {
     this.http
-          .get('mgrss/observacion/jsonAforos.action')
+          .get('https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
           .subscribe((resp: any)=>{
             this.natur= resp['listaAforos'];
           });

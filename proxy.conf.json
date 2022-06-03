@@ -1,8 +1,0 @@
-{
-    "/mgrss/*":{
-        "target": "https://servizos.meteogalicia.gal",        
-        "secure": false,
-        "changeOrigin": true,
-        "logLevel": "debug"
-    }
-}
