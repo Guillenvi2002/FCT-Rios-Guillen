@@ -16,8 +16,6 @@ MIT
 @angular/router
 MIT
 
-fct-guillen
-
 ngx-owl-carousel-o
 MIT
 

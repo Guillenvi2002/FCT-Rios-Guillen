@@ -9,7 +9,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { RiosComponent } from './pages/rios/rios.component';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { EquipoComponent } from './pages/equipo/equipo.component';
-import { AppointmentComponent } from '../../../Angular/FCT-Rios-Guillen/src/app/pages/appointment/appointment.component';
+import { AppointmentComponent } from './pages/appointment/appointment.component';
 
 const routes: Routes = [
   {path: "about", component: AboutComponent},
@@ -17,7 +17,7 @@ const routes: Routes = [
   {path: "courses", component: CoursesComponent},
   {path: "feature", component: FeaturesComponent},
   {path: "team", component: EquipoComponent},
-  {path: "apoint", component: AppointmentComponent},
+  {path: "appoint", component: AppointmentComponent},
   {path: "clientes", component: ClientesComponent},
   {path: "rios", component: RiosComponent},
   {path: "", component: HomeComponent},
