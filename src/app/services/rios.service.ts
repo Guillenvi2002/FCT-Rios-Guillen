@@ -18,7 +18,7 @@ export class RiosService {
 
   private cargarRios() {
     this.http
-          .get('https://cors-anywhere.herokuapp.com/https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
+          .get('https://corsanywhere.herokuapp.com/https://servizos.meteogalicia.gal/mgrss/observacion/jsonAforos.action')
           .subscribe((resp: any)=>{
             this.natur= resp['listaAforos'];
           });
