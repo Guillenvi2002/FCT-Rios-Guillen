@@ -44,7 +44,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
         provide: TranslateLoader,
         useFactory: httpTranslateLoader,
         deps: [HttpClient]
-      }
+      },
+      defaultLanguage: 'es-ES',
     })
   ],
   providers: [],
@@ -53,5 +54,5 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export class AppModule { }
 
 export function httpTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
