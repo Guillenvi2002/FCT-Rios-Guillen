@@ -1,0 +1,31 @@
+{
+    "encabezado":{
+        "dirección": "Santiago Avenue 40, Ourense",
+        "horario": "Mon - Fri : 09:00 - 21:00",
+        "inicio": "Home",
+        "nosotros": "About us",
+        "eventos": "Events",
+        "paginas": "Pages",
+        "rios": "River list",
+        "error": "Error page (404)",
+        "idioma": "Language",
+        "castellano": "Spanish",
+        "gallego": "Galician",
+        "ingles": "English",
+        "contacto": "Contact us",
+        "empieza": "Start now"
+    },
+
+    "footer":{
+        "titulo1": "Get in touch",
+        "titulo2": "Quick links",
+        "titulo3": "Popular links",
+        "titulo4": "Subscribe to Newsletter",
+        "enlace1": "Our services",
+        "enlace2": "Terms and Conditions",
+        "enlace3": "Customer Support",
+        "placeholder": "Your email",
+        "btnRegis": "Register",
+        "social" : "Follow us on our social networks"
+    }
+}

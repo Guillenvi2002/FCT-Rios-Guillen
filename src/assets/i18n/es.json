@@ -1,0 +1,39 @@
+{
+    "encabezado":{
+        "dirección": "Avenida de Santiago 40, Ourense",
+        "horario": "Lun - Vie : 09:00 - 21:00",
+        "inicio": "Inicio",
+        "nosotros": "Sobre Nosotros",
+        "eventos": "Eventos",
+        "paginas": "Páginas",
+        "rios": "Lista de rios",
+        "error": "Página error (404)",
+        "idioma": "Idioma",
+        "castellano": "Español",
+        "gallego": "Gallego",
+        "ingles": "Inglés",
+        "contacto": "Contáctanos",
+        "empieza": "Empieza ahora"
+    },
+
+    "footer":{
+        "titulo1": "Ponte en Contacto",
+        "titulo2": "Enlaces rápidos",
+        "titulo3": "Enlaces populares",
+        "titulo4": "Suscríbete al boletín de noticias",
+        "enlace1": "Nuestros servicios",
+        "enlace2": "Términos y condiciones",
+        "enlace3": "Soporte al cliente",
+        "placeholder": "Tu correo",
+        "btnRegis": "Regístrate",
+        "social" : "Siguenos en nuestras redes sociales"
+    },
+
+    "carousel":{
+        "msj1": "",
+        "msj2": "",
+        "txtbtn1": "",
+        "txtbtn2": ""
+        
+    }
+}
