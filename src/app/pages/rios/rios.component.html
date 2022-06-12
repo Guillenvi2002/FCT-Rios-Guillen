@@ -1,7 +1,7 @@
 <div class="container wow fadeIn" data-wow-delay="0.3s">
   <div class="row">
     <div class="col-sm-12 mb-3">
-      <input type="text" class="form-control" name="filterPost" placeholder="Busca un rio..." [(ngModel)]="filterPost">
+      <input type="text" class="form-control" name="filterPost" placeholder="{{ 'rios.placeholderRio' | translate}}" [(ngModel)]="filterPost">
     </div>
   </div>
   <div class="row" id="myDIV">
@@ -10,25 +10,24 @@
         <img class="card-img-top" src="assets/img/{{rio.nomeEstacion}}.jpeg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><a>{{rio.nomeEstacion}}</a></h5>
-          <h6 class="card-subtitle mb-2 text-muted">Provincia: {{rio.provincia}}</h6>
-          <h6 class="card-subtitle mb-2 text-muted">Concello: {{rio.concello}}</h6>
-          <p> Ultima vez actualizado: {{rio.dataLocal}}</p>
+          <h6 class="card-subtitle mb-2 text-muted">{{ 'rios.provincia' | translate}}: {{rio.provincia}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">{{ 'rios.concello' | translate}}: {{rio.concello}}</h6>
+          <p> {{ 'rios.fecha' | translate}}: {{rio.dataLocal}}</p>
           <div>
             <a class="btn btn-primary" data-bs-toggle="collapse" href="#texto{{rio.ide}}" role="button"
               aria-expanded="false" aria-controls="collapseExample">
-              Mas detalles
+              {{ 'rios.btnDetalles' | translate}}
             </a><br><br>
             <div class="collapse" id="texto{{rio.ide}}">
               <div class="card card-body" *ngFor="let detalles of rio.listaMedidas">
                 <p>{{detalles.parametro}}</p>
                 <p>{{detalles.valor}} {{detalles.unidade}}</p>
               </div>
-              <p>Latitud: {{rio.latitude}}</p>
-              <p>Longitud: {{rio.lonxitude}}</p>
+              <p>{{ 'rios.latitud' | translate}}: {{rio.latitude}}</p>
+              <p>{{ 'rios.longitud' | translate}}: {{rio.lonxitude}}</p>
             </div>
           </div>
-          <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">Ir al
-            mapa</a><br>
+          <a href="http://www.google.com/maps/place/{{rio.latitude}},{{rio.lonxitude}}" class="btn btn-primary">{{ 'rios.btnMap' | translate}}</a><br>
         </div>
       </div>
     </div><br><br>

@@ -30,10 +30,100 @@
     },
 
     "carousel":{
-        "msj1": "",
-        "msj2": "",
-        "txtbtn1": "",
-        "txtbtn2": ""
-        
+        "msj1": "Conoce la naturaleza gallega",
+        "msj2": "Tu educación es nuestra prioridad",
+        "txtbtn1": "Aprende más",
+        "txtbtn2": "Nuestros eventos",
+        "card1": "Excursiones de variada dificultad",
+        "card2": "Instructores nacionales",
+        "card3": "Consigue tu diploma",
+        "para1": "Elija entre nuestro catálogo de excursiones",
+        "para2": "Para ofrecer el mejor servicio",
+        "para3": "Por contribuír con nosotros para un mejor futuro",
+        "atras": "Anterior",
+        "post": "Siguiente"
+    },
+
+    "nosotros":{
+        "cabezal": "SOBRE NOSOTROS",
+        "main": "Ayudamos a conocer el estado de nuestros ríos, su ecosistema y su conservación",
+        "cuerpo1": "Esta página fue creada con el propósito de educar y enseñar a cualquier persona sobre la naturaleza, los animales que viven dentro de ella, y dar importancia sobre como cuidarlo, para que otros puedan disfrutarlo",
+        "cuerpo2": "También hacemos excursiones para limpiar los bosques y los ríos para evitar posibles fuegos, así como la contaminación de nuestros ríos.",
+        "check1": "100% Legal",
+        "check2": "Trackeo online",
+        "check3": "Muy barato",
+        "check4": "Los mejores guías",
+        "btncheck": "Lee más"
+    },
+
+    "eventos":{
+        "tituloEv": "EVENTOS TENDENCIA",
+        "tituloEv2": "Los eventos más populares del momento",
+        "tituloEX1": "Excursión al río Masma",
+        "tituloEX2": "Excursión a las cataratas del río Xallas",
+        "tituloEX3": "Exploración del río Eume",
+        "descrp1": "Descubra este impresioante río de Lugo en bicicleta",
+        "descrp2": "Conozca la historia de este río, además de contemplar una de las cataratas más preciosas de Galicia",
+        "descrp3": "Descubra el río Eume en todo su esplendor, así como algunas de sus hallazgos e historias",
+        "dificultad1": "Principiante",
+        "dificultad2": "Medio",
+        "dificultad3": "Avanzado",
+        "tiempo": "horas",
+        "dinero": "€",
+        "masInfo": "Leer más"
+    },
+
+    "cita": {
+        "titulo": "Haz una cita",
+        "tituloCtn": "Contacta con nosotros",
+        "2tituloCtn": "Si tiene alguna duda, por favor, contacte con nosotros",
+        "placeholderName": "Tu nombre",
+        "placeholderEv": "Tipo de evento a realizar",
+        "placeholderTema": "Tema",
+        "placeholderCnt": "Nº de participantes",
+        "placeholderMSG" : "Mensaje",
+        "btnCita": "Enviar",
+        "btnMsg": "Enviar mensaje"
+    },
+
+    "Nuestros_servicios":{
+        "titularSrv": "PORQUE ELEGIRNOS A NOSOTROS?",
+        "2titularSrv": "La mejor agencia gallega de turismo natural!",
+        "bosySrv": "Siempre dando un paso adelante, ofreciendo excursiones a los rios gallegos, y aprender de la historia, ecosistema de cada uno, asi como fomentar el reciclaje y una actitud responsable con nuestra naturaleza",
+        "tituloMotiv1": "Totalmente licenciado",
+        "textoMotiv1": "Con todos los permisos otorgados por la Xunta de Galicia",
+        "tituloMotiv2": "Trackeo online",
+        "textoMotiv2": "Para garantizar la seguridad de nuestros clientes durante la excursión",
+        "tituloMotiv3": "Asequible",
+        "textoMotiv3": "Con ofertas, promociones, para que sea accesible para todo el mundo",
+        "tituloMotiv4": "Los mejores profesionales",
+        "textoMotiv4": "Siempre dispuestos a ayudar en todo momento, garantizando una excursión perfecta"
+    },
+    
+    "equipo": {
+        "tituloEq" : "CONOCE A NUESTRO EQUIPO",
+        "2tituloEq" : "Con gran experiencia sobre naturaleza"
+    },
+
+    "reseña" : {
+        "tituloRs": "TESTIMONIOS",
+        "2tituloRs": "Algunas reseñas de nuestros clientes!"
+    },
+
+    "error": {
+        "tituloError": "Página no encontrada",
+        "mainError": "¡Lo sentimos, la página que has buscado no existe en nuestro sitio web! ¿Quizás ir a nuestra página de inicio o intentar usar una búsqueda?",
+        "btnReturn": "Volver al inicio"
+    },
+
+    "rios": {
+        "placeholderRio": "Busca un río",
+        "concello": "Consejo",
+        "fecha": "Ultima vez actualizado",
+        "provincia": "Provincia",
+        "latitud": "Latitutd",
+        "longitud": "Longitud",
+        "btnDetalles": "Más detalles",
+        "btnMap": "Ir al mapa"
     }
 }

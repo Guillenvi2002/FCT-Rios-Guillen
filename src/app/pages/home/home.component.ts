@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { TestigosService } from 'src/app/services/testigos.service';
 import { EmpleadosService } from 'src/app/services/empleados.service';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-home',

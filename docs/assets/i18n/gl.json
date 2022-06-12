@@ -1,0 +1,129 @@
+{
+    "encabezado":{
+        "dirección": "Avenida de Santiago 40, Ourense",
+        "horario": "Lun - Vie : 09:00 - 21:00",
+        "inicio": "Inicio",
+        "nosotros": "Sobre nós",
+        "eventos": "Eventos",
+        "paginas": "Páxinas",
+        "rios": "Lista dos rios",
+        "error": "Páxina error (404)",
+        "idioma": "Idioma",
+        "castellano": "Español",
+        "gallego": "Galego",
+        "ingles": "Inglés",
+        "contacto": "Contacte connosco",
+        "empieza": "Comezar agora"
+    },
+
+    "footer":{
+        "titulo1": "Manterse en contacto",
+        "titulo2": "Enlaces rápidos",
+        "titulo3": "Enlaces populares",
+        "titulo4": "Subscríbete ao Newsletter",
+        "enlace1": "Nosos servicios",
+        "enlace2": "Termos e condicións",
+        "enlace3": "Atención ó Cliente",
+        "placeholder": "O teu correo",
+        "btnRegis": "Rexistrarse",
+        "social" : "Síguenos nas nosas redes sociais"
+    },
+
+    "carousel":{
+        "msj1": "Coñecer a natureza galega",
+        "msj2": "A túa educación é a nosa prioridade",
+        "txtbtn1": "Aprender máis",
+        "txtbtn2": "Os nosos eventos",
+        "card1": "Excursións de variada dificultade",
+        "card2": "Instrutores nacionais",
+        "card3": "Consigue o teu diploma",
+        "para1": "Escolle no noso catálogo de excursións",
+        "para2": "Para ofrecer o mellor servizo",
+        "para3": "Por contribuír connosco a un futuro mellor",
+        "atras": "Anterior",
+        "post": "Seguindo"
+    },
+
+    "nosotros":{
+        "cabezal": "SOBRE NÓS",
+        "main": "Axudamos a coñecer o estado dos nosos ríos, o seu ecosistema e a súa conservación",
+        "cuerpo1": "Esta páxina foi creada coa finalidade de educar e ensinar a calquera persoa sobre a natureza, os animais que viven nela, e darlle importancia a como coidala, para que os demais poidan gozar dela",
+        "cuerpo2": "Tamén facemos excursións para limpar os bosques e os ríos para evitar posibles incendios, así como a contaminación dos nosos ríos",
+        "check1": "100% Legal",
+        "check2": "Seguimento en liña",
+        "check3": "Moi barato",
+        "check4": "Os mellores guías",
+        "btncheck": "Le máis"
+    },
+
+    "eventos":{
+        "tituloEv": "EVENTOS TENDENCIA",
+        "tituloEv2": "Os eventos máis populares do momento",
+        "tituloEX1": "Excursión ao río Masma",
+        "tituloEX2": "Excursión ás fervenzas do río Xallas",
+        "tituloEX3": "Exploración do río Eume",
+        "descrp1": "Descubre este impresionante río de Lugo en bicicleta",
+        "descrp2": "Coñece a historia deste río, ademais de contemplar unha das fervenzas máis fermosas de Galicia",
+        "descrp3": "Descubre o río Eume en todo ou o seu esplendor, así como unhas dúas historias e historias serias",
+        "dificultad1": "Principiante",
+        "dificultad2": "Medio",
+        "dificultad3": "Avanzado",
+        "tiempo": "horas",
+        "dinero": "€",
+        "masInfo": "Le máis"
+    },
+
+    "cita": {
+        "titulo": "Haz unha cita",
+        "tituloCtn": "Contacte connosco",
+        "2tituloCtn": "Se tes algunha dúbida, póñase en contacto connosco",
+        "placeholderName": "O teu nome",
+        "placeholderEv": "Tipo de evento a realizar",
+        "placeholderTema": "Tema",
+        "placeholderCnt": "Nº de participantes",
+        "placeholderMSG" : "Mensaxe",
+        "btnCita": "Enviar",
+        "btnMsg": "Enviar mensaxe"
+    },
+
+    "Nuestros_servicios":{
+        "titularSrv": "POR QUE ELIXIRNOS?",
+        "2titularSrv": "A mellor axencia galega de turismo natural!",
+        "bosySrv": "Sempre dando un paso adiante, ofrecendo excursións aos ríos galegos, e coñecendo a historia, o ecosistema de cada un, ademais de promover a reciclaxe e unha actitude responsable ante a nosa natureza",
+        "tituloMotiv1": "Completamente con licenza",
+        "textoMotiv1": "Con todos os permisos concedidos pola Xunta de Galicia",
+        "tituloMotiv2": "Seguimento en liña",
+        "textoMotiv2": "Para garantir a seguridade dos nosos clientes durante a excursión",
+        "tituloMotiv3": "Asequible",
+        "textoMotiv3": "Con ofertas, promocións, para facelo accesible a todos",
+        "tituloMotiv4": "Os mellores profesionais",
+        "textoMotiv4": "Sempre disposto a axudar en todo momento, garantindo unha excursión perfecta"
+    },
+    
+    "equipo": {
+        "tituloEq" : "COÑECE AO NOSO EQUIPO",
+        "2tituloEq" : "Con gran experiencia na natureza"
+    },
+
+    "reseña" : {
+        "tituloRs": "TESTIMONIOS",
+        "2tituloRs": "Algunhas críticas dos nosos clientes!"
+    },
+
+    "error": {
+        "tituloError": "Páxina no encontrada",
+        "mainError": "Sentímolo, a páxina que buscas non existe no noso sitio web! Quizais vaia á nosa páxina de inicio ou intente facer unha busca?",
+        "btnReturn": "Volver ao inicio"
+    },
+
+    "rios": {
+        "placeholderRio": "Busca un río",
+        "concello": "Concello",
+        "fecha": "Última actualización",
+        "provincia": "Provincia",
+        "latitud": "Latitude",
+        "longitud": "Lonxitude",
+        "btnDetalles": "Máis detalles",
+        "btnMap": "Ir ao mapa"
+    }
+}

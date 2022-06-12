@@ -27,5 +27,103 @@
         "placeholder": "Your email",
         "btnRegis": "Register",
         "social" : "Follow us on our social networks"
+    },
+
+    "carousel":{
+        "msj1": "Get to know Galician nature",
+        "msj2": "Your education is our priority",
+        "txtbtn1": "Learn more",
+        "txtbtn2": "Our events",
+        "card1": "Excursions of varied difficulty",
+        "card2": "National instructors",
+        "card3": "Get your diploma",
+        "para1": "Choose from our catalog of excursions",
+        "para2": "To offer the best service",
+        "para3": "For contributing with us for a better future",
+        "atras": "Previous",
+        "post": "Following"
+    },
+
+    "nosotros":{
+        "cabezal": "ABOUT US",
+        "main": "We help to know the state of our rivers, their ecosystem and their conservation",
+        "cuerpo1": "This page was created with the purpose of educating and teaching anyone about nature, the animals that live within it, and giving importance to how to take care of it, so that others can enjoy it",
+        "cuerpo2": "We also do excursions to clean the forests and the rivers to avoid possible fires, as well as the contamination of our rivers.",
+        "check1": "100% Legal",
+        "check2": "Online tracking",
+        "check3": "Very cheap",
+        "check4": "The best guides",
+        "btncheck": "Read more"
+    },
+
+    "eventos":{
+        "tituloEv": "TRENDING EVENTS",
+        "tituloEv2": "The most popular events of the moment",
+        "tituloEX1": "Excursion to the Masma River",
+        "tituloEX2": "Excursion to the waterfalls of the Xallas river",
+        "tituloEX3": "Eume River Exploration",
+        "descrp1": "Discover this impressive river of Lugo by bicycle",
+        "descrp2": "Learn about the history of this river, in addition to contemplating one of the most beautiful waterfalls in Galicia",
+        "descrp3": "Discover the Eume river in all its splendor, as well as some of its findings and stories",
+        "dificultad1": "Beginner",
+        "dificultad2": "Medium",
+        "dificultad3": "Advanced",
+        "tiempo": "hours",
+        "dinero": "£",
+        "masInfo": "Read more"
+    },
+
+    "cita": {
+        "titulo":"Make an appointment",
+        "tituloCtn": "Contact us",
+        "2tituloCtn": "If you have any questions, please contact us",
+        "placeholderName": "Your name",
+        "placeholderEv": "Type of event to perform",
+        "placeholderTema": "Topic",
+        "placeholderCnt": "Number of participants",
+        "placeholderMSG" : "Message",
+        "btnCita": "Send",
+        "btnMsg": "Send message"
+    },
+
+    "Nuestros_servicios":{
+        "titularSrv": "WHY CHOOSE US?",
+        "2titularSrv": "The best Galician natural tourism agency!",
+        "bosySrv": "Always taking a step forward, offering excursions to the Galician rivers, and learning about the history, ecosystem of each one, as well as promoting recycling and a responsible attitude towards our nature",
+        "tituloMotiv1": "Fully Licensed",
+        "textoMotiv1": "With all the permits granted by the Xunta de Galicia",
+        "tituloMotiv2": "Online tracking",
+        "textoMotiv2": "To guarantee the safety of our clients during the excursion",
+        "tituloMotiv3": "Affordable",
+        "textoMotiv3": "With offers, promotions, to make it accessible to everyone",
+        "tituloMotiv4": "The best professionals",
+        "textoMotiv4": "Always willing to help at all times, guaranteeing a perfect excursion"
+    },
+    
+    "equipo": {
+        "tituloEq" : "MEET OUR TEAM",
+        "2tituloEq" : "With great experience on nature"
+    },
+
+    "reseña" : {
+        "tituloRs": "TESTIMONIALS",
+        "2tituloRs": "Some reviews from our customers!"
+    },
+
+    "error": {
+        "tituloError": "Page not found",
+        "mainError": "Sorry, the page you're looking for doesn't exist on our website! Maybe go to our home page or try using a search?",
+        "btnReturn": "Back to home"
+    },
+
+    "rios": {
+        "placeholderRio": "Look for a river",
+        "concello": "Council",
+        "fecha": "Last Updated",
+        "provincia": "Province",
+        "latitud": "Latitutd",
+        "longitud": "Longitude",
+        "btnDetalles": "More details",
+        "btnMap": "Go to map"
     }
 }

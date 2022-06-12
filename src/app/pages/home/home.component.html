@@ -8,9 +8,9 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-lg-7">
-                    <h1 class="display-2 text-light mb-5 animated slideInDown">Aprende de la naturaleza gallega</h1>
-                    <a (click)="irPagina(about)" class="btn btn-primary py-sm-3 px-sm-5">Aprende más</a>
-                    <a (click)="irPagina(evento)" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestros eventos</a>
+                    <h1 class="display-2 text-light mb-5 animated slideInDown">{{ 'carousel.msj1' | translate}}</h1>
+                    <a (click)="irPagina(about)" class="btn btn-primary py-sm-3 px-sm-5">{{ 'carousel.txtbtn1' | translate}}</a>
+                    <a (click)="irPagina(evento)" class="btn btn-light py-sm-3 px-sm-5 ms-3">{{ 'carousel.txtbtn2' | translate}}</a>
                   </div>
                 </div>
               </div>
@@ -22,9 +22,9 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-lg-7">
-                    <h1 class="display-2 text-light mb-5 animated slideInDown">Tu educación es nuestra prioridad</h1>
-                    <a (click)="irPagina(about)" class="btn btn-primary py-sm-3 px-sm-5">Aprende más</a>
-                    <a (click)="irPagina(evento)" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestros eventos</a>
+                    <h1 class="display-2 text-light mb-5 animated slideInDown">{{ 'carousel.msj2' | translate}}</h1>
+                    <a (click)="irPagina(about)" class="btn btn-primary py-sm-3 px-sm-5">{{ 'carousel.txtbtn1' | translate}}</a>
+                    <a (click)="irPagina(evento)" class="btn btn-light py-sm-3 px-sm-5 ms-3">{{ 'carousel.txtbtn2' | translate}}</a>
                   </div>
                 </div>
               </div>
@@ -33,11 +33,11 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
+          <span class="visually-hidden">{{ 'carousel.atras' | translate}}</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
+          <span class="visually-hidden">{{ 'carousel.post' | translate}}</span>
         </button>
       </div>
     </div>
@@ -55,8 +55,8 @@
                   <i class="fa fa-car text-white"></i>
                 </div>
                 <div class="ps-4">
-                  <h5>Excursiones de variada dificultad</h5>
-                  <span>Elija entre nuestro catálogo de excursiones</span>
+                  <h5>{{ 'carousel.card1' | translate}}</h5>
+                  <span>{{ 'carousel.para1' | translate}}</span>
                 </div>
               </div>
             </div>
@@ -68,8 +68,8 @@
                   <i class="fa fa-users text-white"></i>
                 </div>
                 <div class="ps-4">
-                  <h5>Instructor Nacionales</h5>
-                  <span>Para ofrecer el mejor servicio</span>
+                  <h5>{{ 'carousel.card2' | translate}}</h5>
+                  <span>{{ 'carousel.para2' | translate}}</span>
                 </div>
               </div>
             </div>
@@ -81,8 +81,8 @@
                   <i class="fa fa-file-alt text-white"></i>
                 </div>
                 <div class="ps-4">
-                  <h5>Consigue tu diploma</h5>
-                  <span>Por contribuír con nosotros para un mejor futuro</span>
+                  <h5>{{ 'carousel.card3' | translate}}</h5>
+                  <span>{{ 'carousel.para3' | translate}}</span>
                 </div>
               </div>
             </div>
@@ -106,31 +106,27 @@
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="h-100">
-              <h6 class="text-primary text-uppercase mb-2">Sobre nosotros</h6>
-              <h1 class="display-6 mb-4">Ayudamos a personas a conocer el estado de nuestros ríos, su ecosistema y
-                lecciones de reciclaje</h1>
-              <p>Esta página fue creada con el propósito de educar y enseñar a cualquier persona sobre la naturaleza,
-                los animales que viven dentro de ella, y dar importancia sobre como cuidarlo, para que otros puedan
-                disfrutarlo</p>
-              <p class="mb-4">También hacemos excursiones para limpiar los bosques y los ríos para evitar posibles
-                fuegos, así como la contaminación de nuestros ríos.</p>
+              <h6 class="text-primary text-uppercase mb-2">{{ 'nosotros.cabezal' | translate}}</h6>
+              <h1 class="display-6 mb-4">{{ 'nosotros.main' | translate}}</h1>
+              <p>{{ 'nosotros.cuerpo1' | translate}}</p>
+              <p class="mb-4">{{ 'nosotros.cuerpo2' | translate}}</p>
               <div class="row g-2 mb-4 pb-2">
                 <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>100% Legal
+                  <i class="fa fa-check text-primary me-2"></i>{{ 'nosotros.check1' | translate}}
                 </div>
                 <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Trackeo online
+                  <i class="fa fa-check text-primary me-2"></i>{{ 'nosotros.check2' | translate}}
                 </div>
                 <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Muy barato
+                  <i class="fa fa-check text-primary me-2"></i>{{ 'nosotros.check3' | translate}}
                 </div>
                 <div class="col-sm-6">
-                  <i class="fa fa-check text-primary me-2"></i>Los mejores guías
+                  <i class="fa fa-check text-primary me-2"></i>{{ 'nosotros.check4' | translate}}
                 </div>
               </div>
               <div class="row g-4">
                 <div class="col-sm-6">
-                  <a class="btn btn-primary py-3 px-5" href="">Lee más</a>
+                  <a class="btn btn-primary py-3 px-5" href="">{{ 'nosotros.btncheck' | translate}}</a>
                 </div>
                 <div class="col-sm-6">
                   <a class="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2"
@@ -154,25 +150,25 @@
     <div class="container-xxl py-6">
       <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <h6 class="text-primary text-uppercase mb-2">Eventos tendencia</h6>
-          <h1 class="display-6 mb-4">Los eventos más populares del momento</h1>
+          <h6 class="text-primary text-uppercase mb-2">{{ 'eventos.tituloEv' | translate}}</h6>
+          <h1 class="display-6 mb-4">{{ 'eventos.tituloEv2' | translate}}</h1>
         </div>
         <div class="row g-4 justify-content-center">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
               <div class="text-center p-4 pt-0">
-                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">10€</div>
-                <h5 class="mb-3">Excursión al río Masma</h5>
-                <p>Descubra este impresioante río de Lugo en bicicleta</p>
+                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">10{{ 'eventos.dinero' | translate}}</div>
+                <h5 class="mb-3">{{ 'eventos.tituloEX1' | translate}}</h5>
+                <p>{{ 'eventos.descrp1' | translate}}</p>
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Principiante</li>
-                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>2 horas</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>{{ 'eventos.dificultad1' | translate}}</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>2 {{ 'eventos.tiempo' | translate}}</li>
                 </ol>
               </div>
               <div class="position-relative mt-auto">
                 <img class="img-fluid" src="assets/img/courses-1.jpeg" alt="">
                 <div class="courses-overlay">
-                  <a class="btn btn-outline-primary border-2" href="">Leer más</a>
+                  <a class="btn btn-outline-primary border-2" href="">{{ 'eventos.masInfo' | translate}}</a>
                 </div>
               </div>
             </div>
@@ -180,19 +176,19 @@
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
               <div class="text-center p-4 pt-0">
-                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">25€</div>
-                <h5 class="mb-3">Excursión a las cataratas del río Xallas</h5>
-                <p>Conozca la historia de este río, además de contemplar una de las cataratas más preciosas de Galicia
+                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">25{{ 'eventos.dinero' | translate}}</div>
+                <h5 class="mb-3">{{ 'eventos.tituloEX2' | translate}}</h5>
+                <p>{{ 'eventos.descrp2' | translate}}
                 </p>
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Medio</li>
-                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>6 horas</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>{{ 'eventos.dificultad2' | translate}}</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>6 {{ 'eventos.tiempo' | translate}}</li>
                 </ol>
               </div>
               <div class="position-relative mt-auto">
                 <img class="img-fluid" src="assets/img/courses-2.jpeg" alt="">
                 <div class="courses-overlay">
-                  <a class="btn btn-outline-primary border-2" href="">Leer más<script></script></a>
+                  <a class="btn btn-outline-primary border-2" href="">{{ 'eventos.masInfo' | translate}}</a>
                 </div>
               </div>
             </div>
@@ -200,60 +196,60 @@
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="courses-item d-flex flex-column bg-light overflow-hidden h-100">
               <div class="text-center p-4 pt-0">
-                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">50€</div>
-                <h5 class="mb-3">Exploración del río Eume</h5>
-                <p>Descubra el río Eume en todo su esplendor, así como algunas de sus hallazgos e historias</p>
+                <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">50{{ 'eventos.dinero' | translate}}</div>
+                <h5 class="mb-3">{{ 'eventos.tituloEX3' | translate}}</h5>
+                <p>{{ 'eventos.descrp3' | translate}}</p>
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Avanzado</li>
-                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>12 Horas</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>{{ 'eventos.dificultad3' | translate}}</li>
+                  <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>12 {{ 'eventos.tiempo' | translate}}</li>
                 </ol>
               </div>
               <div class="position-relative mt-auto">
                 <img class="img-fluid" src="assets/img/courses-3.jpeg" alt="">
                 <div class="courses-overlay">
-                  <a class="btn btn-outline-primary border-2" href="">Leer más</a>
+                  <a class="btn btn-outline-primary border-2" href="">{{ 'eventos.masInfo' | translate}}</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-8 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="bg-primary text-center p-5">
-              <h1 class="mb-4">Haz una cita</h1>
+              <h1 class="mb-4">{{ 'cita.titulo' | translate}}</h1>
               <form>
                 <div class="row g-3">
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
-                      <label for="gname">Tu nombre</label>
+                      <label for="gname">{{ 'cita.placeholderName' | translate}}</label>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
-                      <label for="gmail">Tu correo</label>
+                      <label for="gmail">{{ 'footer.placeholder' | translate}}</label>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
-                      <label for="cname">Tipo de evento a realizar</label>
+                      <label for="cname">{{ 'cita.placeholderEv' | translate}}</label>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input type="number" min="0" class="form-control border-0" id="cage" placeholder="Child Age">
-                      <label for="cage">Nº de parcitipantes</label>
+                      <label for="cage">{{ 'cita.placeholderCnt' | translate}}</label>
                     </div>
                   </div>
                   <div class="col-12">
                     <div class="form-floating">
                       <textarea class="form-control border-0" placeholder="Leave a message here" id="message"
                         style="height: 100px"></textarea>
-                      <label for="message">Mensaje</label>
+                      <label for="message">{{ 'cita.placeholderMSG' | translate}}</label>
                     </div>
                   </div>
                   <div class="col-12">
-                    <button class="btn btn-dark w-100 py-3" type="submit">Enviar</button>
+                    <button class="btn btn-dark w-100 py-3" type="submit">{{ 'cita.btnCita' | translate}}</button>
                   </div>
                 </div>
               </form>
@@ -270,47 +266,45 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-primary text-uppercase mb-2">Porque elegirnos a nosotros?</h6>
-            <h1 class="display-6 mb-4">La mejor agencia gallega de turismo natural!</h1>
-            <p class="mb-5">Siempre dando un paso adelante, ofreciendo excursiones a los rios gallegos, y aprender de la
-              historia, ecosistema de cada uno, asi como fomentar el reciclaje y una actitud responsable con nuestra
-              naturaleza </p>
+            <h6 class="text-primary text-uppercase mb-2">{{ 'Nuestros_servicios.titularSrv' | translate}}</h6>
+            <h1 class="display-6 mb-4">{{ 'Nuestros_servicios.2titularSrv' | translate}}</h1>
+            <p class="mb-5">{{ 'Nuestros_servicios.bosySrv' | translate}}</p>
             <div class="row gy-5 gx-4">
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="d-flex align-items-center mb-3">
                   <div class="flex-shrink-0 btn-square bg-primary me-3">
                     <i class="fa fa-check text-white"></i>
                   </div>
-                  <h5 class="mb-0">Totalmente licenciado</h5>
+                  <h5 class="mb-0">{{ 'Nuestros_servicios.tituloMotiv1' | translate}}</h5>
                 </div>
-                <span>Con todos los permisos otorgados por la Xunta de Galicia</span>
+                <span>{{ 'Nuestros_servicios.textoMotiv1' | translate}}</span>
               </div>
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="d-flex align-items-center mb-3">
                   <div class="flex-shrink-0 btn-square bg-primary me-3">
                     <i class="fa fa-check text-white"></i>
                   </div>
-                  <h5 class="mb-0">Trackeo online</h5>
+                  <h5 class="mb-0">{{ 'Nuestros_servicios.tituloMotiv2' | translate}}</h5>
                 </div>
-                <span>Para garantizar la seguridad de nuestros clientes durante la excursión</span>
+                <span>{{ 'Nuestros_servicios.textoMotiv2' | translate}}</span>
               </div>
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                 <div class="d-flex align-items-center mb-3">
                   <div class="flex-shrink-0 btn-square bg-primary me-3">
                     <i class="fa fa-check text-white"></i>
                   </div>
-                  <h5 class="mb-0">Asequible</h5>
+                  <h5 class="mb-0">{{ 'Nuestros_servicios.tituloMotiv3' | translate}}</h5>
                 </div>
-                <span>Con ofertas, promociones, para que sea accesible para todo el mundo</span>
+                <span>{{ 'Nuestros_servicios.textoMotiv3' | translate}}</span>
               </div>
               <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                 <div class="d-flex align-items-center mb-3">
                   <div class="flex-shrink-0 btn-square bg-primary me-3">
                     <i class="fa fa-check text-white"></i>
                   </div>
-                  <h5 class="mb-0">Los mejores profesionales</h5>
+                  <h5 class="mb-0">{{ 'Nuestros_servicios.tituloMotiv4' | translate}}</h5>
                 </div>
-                <span>Siempre dispuestos a ayudar en todo momento, garantizando una excursión perfecta</span>
+                <span>{{ 'Nuestros_servicios.textoMotiv4' | translate}}</span>
               </div>
             </div>
           </div>
@@ -330,8 +324,8 @@
     <div class="container-xxl py-6">
       <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <h6 class="text-primary text-uppercase mb-2">Conoce a nuestro equipo</h6>
-          <h1 class="display-6 mb-4">Con gran experiencia sobre naturaleza</h1>
+          <h6 class="text-primary text-uppercase mb-2">{{ 'equipo.tituloEq' | translate}}</h6>
+          <h1 class="display-6 mb-4">{{ 'equipo.2tituloEq' | translate}}</h1>
         </div>
         <div class="row g-0 team-items">
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" *ngFor="let miembro of grupo.equipo">
@@ -362,8 +356,8 @@
     <div class="container-xxl py-6">
       <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <h6 class="text-primary text-uppercase mb-2">Testimonios</h6>
-          <h1 class="display-6 mb-4">Algunas reseñas de nuestros clientes!</h1>
+          <h6 class="text-primary text-uppercase mb-2">{{ 'reseña.tituloRs' | translate}}</h6>
+          <h1 class="display-6 mb-4">{{ 'reseña.2tituloRs' | translate}}</h1>
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
